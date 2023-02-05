@@ -1,0 +1,72 @@
+.app-container {
+  background-color: #25262c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  background-color: #1b1c22;
+  margin: 30px;
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+}
+
+.image-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.text-editor-img {
+  height: 350px;
+  width: 350px;
+}
+
+.text-editor-container {
+  margin-top: 20px;
+}
+
+.edit-options-container {
+  background-color: #25262c;
+  border: 1px solid #334155;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  padding: 10px;
+}
+
+textarea {
+  background-color: #25262c;
+  border: 1px solid #334155;
+  outline-style: none;
+  color: #f8fafc;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button {
+  background-color: transparent;
+  color: #f8fafc;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 24px;
+  border-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.bold {
+  font-weight: 800;
+}
